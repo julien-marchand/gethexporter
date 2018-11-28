@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  gethexporter:
+    build: .
+    environment:
+      GETH: https://mainnet.infura.io/3dek1oWkaoYCx6uXRGYv
+    ports:
+      - 9090:9090
